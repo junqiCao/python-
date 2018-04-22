@@ -48,6 +48,7 @@ source ~/.local/bin/virtualenvwrapper.sh
 
 * 修改镜像源
 临时的方法：
+
 `$ pip install -i https://pypi.mirrors.ustc.edu.cn/simple  numpy`
 永久修改的方法
 在主目录下新建.pip文件夹，并新建pip.conf文件，并添加一下内容
@@ -55,10 +56,15 @@ source ~/.local/bin/virtualenvwrapper.sh
 [global]
 index-url=https://pypi.mirrors.ustc.edu.cn/simple
 ```
-* 在特定虚拟环境下安装jupyter
-进去环境输入以下代码
- `pip install jupyter`
-`ipython kernel install --name "pytorch_python3" --user --display-name 'python3(porch)'`
+* 在特定虚拟环境下安装jupyter 
+
+进去相应的环境中输入以下代码  
+
+ `$ pip install jupyter`
+ 
+ 把jupyter内核到虚拟环境中，并可以命名
+ 
+`$ ipython kernel install --name "pytorch_python3" --user --display-name 'python3(porch)'`
 
 
 
