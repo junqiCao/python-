@@ -15,6 +15,7 @@
 `$ find / -name virtualenvwrapper | grep wrapper`
 * 步骤五： 创建虚拟环境的母文件夹
 例如主目录先创建一个文件夹`.virtualEnvs`，此处是隐藏文件夹，利用`Ctrl+h`可以将其显示
+
 `$ mkdir -p ~/.virtualEnvs`
 
 * 步骤六： 配置bashrc文件
